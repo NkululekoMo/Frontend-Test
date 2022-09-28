@@ -1,0 +1,69 @@
+
+    <div class="rows">
+        <div class="col-3 head">
+            <h1>Bakoena Medical Store <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+              </svg>...</h1>
+            <p align="justify" fill="red"> Bakoena Online pharmacy is a  leading specialist in beauty, healthy food, sport supplements, health and well-being, we offer the widest ranges in these categories and expert advice. </p>
+            <button routerLink="/login" class="btn btn-success">Shop now</button>
+        </div>
+           <div class="image col-2">
+            <!-- <img class="alt" src="" alt=""> -->
+           </div>
+    </div>
+
+ 
+    <div class="items">
+        <div class="row">
+            <div class="col-md-3 " *ngFor="let pro of productList">
+                <img class="img" (click)="image()" src="{{pro.product_image}}" alt="">
+                <h5 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 20ch;">{{pro.product_desc}}</h5>
+                <h6>{{pro.product_price}}</h6>
+            </div>
+        </div>
+    </div>
+
+ <div class="brands">
+    <div class="container">
+        <div class="items">
+            <div class="row">
+                <div class="title">Our Sponsors and Clients</div>
+              
+               <div class="col-md-2">
+                <img class="img" src="https://www.takealot.com/static/images/logo_transparent.png" alt="">
+               </div>
+               <div class="col-md-2">
+                <img class="img" src="https://cdn.freebiesupply.com/images/large/2x/amazon-logo-transparent.png" alt="">
+               </div>
+               <div class="col-md-2">
+                <img class="img" src="http://assets.stickpng.com/images/58480fd7cef1014c0b5e4943.png" alt="">
+               </div>
+               <div class="col-md-2">
+                <img class="img" src="https://image.emojipng.com/976/9852976.jpg" alt="">
+               </div>
+               <div class="col-md-2">
+                <img class="img" src="http://assets.stickpng.com/images/58482363cef1014c0b5e49c1.png" alt="">
+               </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!-- --------------------------------------------- Footer --------------------------------------------- -->
+
+ <div class="footer">
+    <div class="container">
+        <div class="col">
+            <div class="footer col-md-2">
+                <h3>Follow us</h3>
+                
+                    <a>Facebook</a>||
+                    <a>Twitter</a>||
+                    <a>Instagram</a>||
+                    <a>YouTube</a>
+                
+            </div>
+        </div>
+    </div>
+ </div>

@@ -1,0 +1,17 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.cart{
+    position: fixed;
+    margin-left: 85%;
+}
+
+.text-end{
+    margin-right: 160px;
+}
+
+form, input{
+    margin-right: 350px;
+}

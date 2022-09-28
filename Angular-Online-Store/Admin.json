@@ -1,0 +1,8 @@
+use Medication
+
+db.Admin.insertOne([
+   {
+      email: "nkululeko@gmail.com",
+      password: "1234"
+    }
+])

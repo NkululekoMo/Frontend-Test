@@ -1,0 +1,25 @@
+
+
+<main class="form-signin">
+    <form>
+    
+      <h1 class="h3 mb-3 fw-normal">Admin Portal</h1>
+  
+      <div class="form-floating">
+        <input type="email" class="form-control" id="email" name="email" [(ngModel)]="admin.email" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="password" name="password" [(ngModel)]="admin.password" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+  
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-outline-primary" type="submit" (click)="adminLogin()">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; All Rights Reserved | 2021 <br /> <small>&copy; Designed by Nkululeko Mokoena</small></p>
+    </form>
+  </main>
